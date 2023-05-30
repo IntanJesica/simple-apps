@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT;
 const path = require('path')
 
-app1.disable("x-powered-by");
+app.disable("x-powered-by");
 
 // Import Middleware
 const logger = require('./middleware/logger')
